@@ -3,6 +3,7 @@ import axios from "axios";
 
 class RandomBeer extends Component {
   state = { randomBeer: {} };
+
   componentDidMount() {
     this.fetchRandom();
   }
